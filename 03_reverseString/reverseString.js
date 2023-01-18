@@ -10,10 +10,11 @@ const reverseString = function(word) {
     // return reverseString(word.slice(1)) + word[0]
     // ** iterative version
     reversed = ''
+
     for(let i = word.length-1; i>=0;i--){
-        reversed += word[i]
+        reversed += word[i];
     }
-    return reversed
+    return reversed;
 
 };
 
